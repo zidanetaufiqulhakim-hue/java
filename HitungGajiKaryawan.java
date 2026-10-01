@@ -1,0 +1,32 @@
+public class HitungGajiKaryawan{
+    public static void main(String[] args){
+        //storage input
+        int jumlahHariKerja;
+        int jumlahJamLembur;
+
+        //storage nilai tetap
+        String namaKaryawan = "Black Widow";
+        String namaPerusahaan = "GameStudio";
+        int gajiPokok = 600000;
+        int uangLembur = 80000;
+
+
+        // storage hasil
+        int totalGaji;
+
+        // input
+        jumlahHariKerja = 20;
+        jumlahJamLembur = 16;
+
+        // process
+        totalGaji = (jumlahHariKerja * gajiPokok) + (jumlahJamLembur * uangLembur);
+
+        // output
+        System.out.println("===== Perhitungan Gaji Karyawan PT. " + namaPerusahaan + " =====");
+        System.out.println("Nama Karyawan: " + namaKaryawan);
+        System.out.println("Nama Perusahaan: " + namaPerusahaan);
+        System.out.println("Total Gaji Bulan Oktober: " + totalGaji);
+        System.out.println("=====================================================");
+        System.out.println("Terima kasih atas dedikasi dan kerja kerasnya, " + namaKaryawan + "!");
+    }
+}
