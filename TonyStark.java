@@ -28,10 +28,21 @@ public class TonyStark{
         System.out.println("Nilai Assessment: " + nilaiAssessment);
         System.out.println("Nilai UAS: " + nilaiUas);
         System.out.println("Nilai Tugas: " + nilaiTugas);
-        
+
         System.out.println("---------------------------------------------------------");
         System.out.println("Nilai Akhir: " + nialiAkhir );
         System.out.println("Semangat belajar dan terus tingkatkan prestasimu!");
         System.out.println("=====================================================");
     }
 }
+
+//* OUTPUT:
+// ============ Perhitungan Nilai Mahasiswa ==============
+//Nama Mahasiswa: Tony Stark
+//Nilai Assessment: 76
+//Nilai UAS: 85
+//Nilai Tugas: 65
+//---------------------------------------------------------
+//Nilai Akhir: 78.3
+//Semangat belajar dan terus tingkatkan prestasimu!
+//===================================================== *//
