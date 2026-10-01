@@ -7,7 +7,7 @@ public class Lingkaran {
         double keliling = 0;
 
         //input
-        pi = 3.1415926535897932384;
+        pi = 3.1415926535897932384; 
         jariJari = 32;
 
         //Process

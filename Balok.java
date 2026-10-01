@@ -1,4 +1,5 @@
 public class Balok{
+    // Tugas 1: Menghitung luas dan volume balok
     public static void main(String[] args){
           //storage hasil
     int luas;
@@ -23,3 +24,9 @@ public class Balok{
     System.out.println("Volume Balok: " + volume);
     }
 }
+
+//*
+// OUTPUT:
+//  Luas Balok: 200
+//Volume Balok: 220
+// */
