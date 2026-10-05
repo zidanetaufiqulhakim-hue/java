@@ -29,3 +29,11 @@ public class Hello { //class -> program yang dibuat
 
     }
 }
+//Output:
+//Hello, World!
+//Zidane Taufiqul Hakim
+//Nilai x adalah 101
+//Berat badan saya adalah 60.2
+//Jenis kelamin saya adalah L
+//Nama saya adalah Zidane Hakim
+//Apakah saya sudah mandi? true

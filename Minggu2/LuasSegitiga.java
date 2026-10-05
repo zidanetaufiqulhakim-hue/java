@@ -17,3 +17,4 @@ public class LuasSegitiga {
         System.out.println("Luas Segitaga = " + luas);
     }
 }
+//OutputLuas Segitaga = 212.5

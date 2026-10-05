@@ -42,3 +42,20 @@ public class HitungGajiKaryawan{
         System.out.println("Terima kasih atas dedikasi dan kerja kerasnya, Ibu/Bapak " + namaKaryawan + "!");
     }
 }
+//* OUTPUT:============ Perhitungan Gaji Karyawan PT. GameStudio ==============
+
+
+//Nama Karyawan: Black Widow
+//Nama Perusahaan: GameStudio
+//---------------------------------------------------------
+//Jumlah Hari Kerja: 20
+//Jumlah Jam Lembur: 16
+//---------------------------------------------------------
+//Gaji Pokok per Hari: 300000
+//Uang Lembur per Jam: 50000
+//---------------------------------------------------------
+//Total Gaji Bulan Oktober: 6800000
+
+
+//=====================================================
+//Terima kasih atas dedikasi dan kerja kerasnya, Ibu/Bapak Black Widow!

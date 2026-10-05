@@ -12,7 +12,8 @@ public class TonyStark{
         double bobotTugas = 0.2;
 
         // storage hasil
-        double nialiAkhir;
+        double nilaiAkhir;
+        String isLulus;
 
         // input
         nilaiAssessment = 76;
@@ -20,7 +21,8 @@ public class TonyStark{
         nilaiTugas = 65;
 
         // process
-        nialiAkhir = (nilaiAssessment * bobotAssessment) + (nilaiUas * bobotUas) + (nilaiTugas * bobotTugas);
+        nilaiAkhir = (nilaiAssessment * bobotAssessment) + (nilaiUas * bobotUas) + (nilaiTugas * bobotTugas);
+        isLulus = (nilaiAkhir >= 60) ? "LULUS" : "TIDAK LULUS";
 
         //ouput
         System.out.println("============ Perhitungan Nilai Mahasiswa ==============");
@@ -30,7 +32,8 @@ public class TonyStark{
         System.out.println("Nilai Tugas: " + nilaiTugas);
 
         System.out.println("---------------------------------------------------------");
-        System.out.println("Nilai Akhir: " + nialiAkhir );
+        System.out.println("Nilai Akhir: " + nilaiAkhir );
+        System.out.println("Status: " + isLulus);
         System.out.println("Semangat belajar dan terus tingkatkan prestasimu!");
         System.out.println("=====================================================");
     }
