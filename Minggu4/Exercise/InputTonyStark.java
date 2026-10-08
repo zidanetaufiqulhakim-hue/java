@@ -1,12 +1,11 @@
-public class TonyStark{
+
+import java.util.Scanner;
+
+public class InputTonyStark{
     public static void main(String[] args){
-        //storage input
-        int nilaiAssessment;
-        int nilaiUas;
-        int nilaiTugas;
+        Scanner scanner = new Scanner(System.in);
 
         //storage nilai tetap
-        String namaMahasiswa = "Tony Stark";
         double bobotAssessment = 0.3;
         double bobotUas = 0.5;
         double bobotTugas = 0.2;
@@ -15,10 +14,18 @@ public class TonyStark{
         double nilaiAkhir;
         String isLulus;
 
-        // input
-        nilaiAssessment = 76;
-        nilaiUas = 85;
-        nilaiTugas = 65;
+        //storage input
+        System.out.print("Masukkan nama mahasiswa: ");
+        String namaMahasiswa = scanner.nextLine();
+
+        System.out.print("Masukkan nilai assessment: ");
+        int nilaiAssessment = scanner.nextInt();
+
+        System.out.print("Masukkan nilai uas: ");
+        int nilaiUas = scanner.nextInt();
+
+        System.out.print("Masukkan nilai tugas: ");
+        int nilaiTugas = scanner.nextInt();
 
         // process
         nilaiAkhir = (nilaiAssessment * bobotAssessment) + (nilaiUas * bobotUas) + (nilaiTugas * bobotTugas);
@@ -40,12 +47,13 @@ public class TonyStark{
 }
 
 //* OUTPUT:
-// ============ Perhitungan Nilai Mahasiswa ==============
+//============ Perhitungan Nilai Mahasiswa ==============
 //Nama Mahasiswa: Tony Stark
 //Nilai Assessment: 76
 //Nilai UAS: 85
 //Nilai Tugas: 65
 //---------------------------------------------------------
 //Nilai Akhir: 78.3
+//Status: LULUS
 //Semangat belajar dan terus tingkatkan prestasimu!
-//===================================================== *//
+//=====================================================

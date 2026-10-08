@@ -1,3 +1,4 @@
+package Minggu2;
 public class Balok{
     // Tugas 1: Menghitung luas dan volume balok
     public static void main(String[] args){

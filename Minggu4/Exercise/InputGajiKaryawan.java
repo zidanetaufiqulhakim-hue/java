@@ -1,21 +1,24 @@
-public class HitungGajiKaryawan{
+import java.util.Scanner;
+
+public class InputGajiKaryawan{
     public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+
         //storage input
-        int jumlahHariKerja;
-        int jumlahJamLembur;
+        System.out.print("Masukkan nama karyawan: ");
+        String namaKaryawan = scanner.nextLine();
+        System.out.print("Masukkan jumlah hari kerja: ");
+        int jumlahHariKerja = scanner.nextInt();
+        System.out.print("Masukkan jumlah jam lembur: ");
+        int jumlahJamLembur = scanner.nextInt();
 
         //storage nilai tetap
-        String namaKaryawan = "Black Widow";
         String namaPerusahaan = "GameStudio";
         int gajiPokok = 300000;
         int uangLembur = 50000;
 
         // storage hasil
         int totalGaji;
-
-        // input
-        jumlahHariKerja = 20;
-        jumlahJamLembur = 16;
 
         // process
         totalGaji = (jumlahHariKerja * gajiPokok) + (jumlahJamLembur * uangLembur);

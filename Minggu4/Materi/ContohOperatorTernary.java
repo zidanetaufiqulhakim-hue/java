@@ -7,6 +7,5 @@ public class ContohOperatorTernary{
         hasil = (x < y) ? "x lebih besar daripada y" : "x lebih kecil daripada y";
         
         System.out.println(hasil);
-
     }
 }

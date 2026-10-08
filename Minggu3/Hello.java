@@ -1,3 +1,4 @@
+package Minggu2;
 public class Hello { //class -> program yang dibuat
     //sedang membuat program bernama Hello
 

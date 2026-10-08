@@ -1,3 +1,4 @@
+package Minggu2;
 public class Lingkaran {
     public static void main(String[] args){
         //Storage
