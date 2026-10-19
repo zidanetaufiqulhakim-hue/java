@@ -14,11 +14,11 @@ public class InputLuasVolumeBalok{
     double panjang =  scanner.nextDouble();
 
     //storage input lebar
-    System.out.println("Masukan lebar balok");
+    System.out.print("Masukan lebar balok:");
     double lebar =  scanner.nextDouble();
 
     //storage input tinggigi
-    System.out.print("Masukkan tinggi balok: ");
+    System.out.print("Masukkan tinggi balok:");
     double tinggi =  scanner.nextDouble();
 
     //process

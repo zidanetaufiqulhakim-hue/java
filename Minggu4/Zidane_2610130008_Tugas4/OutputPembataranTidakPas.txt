@@ -1,0 +1,60 @@
+Selamat datang di Toko Miss Diana!
+Masukan Nomor Nota: B8932489
+
+Silakan masukkan jumlah barang yang dibeli:
+Qty. Kertas (35000per rim): ^C%                                                                                                                            
+(base) zhakim@165-100-1-117 Tugas % javac NotaTokoApp.java
+(base) zhakim@165-100-1-117 Tugas % java NotaTokoApp      
+Selamat datang di Toko Miss Diana!
+Masukan Nomor Nota: h78q92
+
+Silakan masukkan jumlah barang yang dibeli:
+Qty. Kertas (35000 per rim): 2
+Qty. Pulpen (20000 per box) : 7
+Qty. Amplop (17000 per box): 10
+
+-------------------------------
+RINCIAN NOTA PEMBELIAN: h78q92
++-----------------------------------------------------------------------------------------------------------+
+| NO.  | Nama Barang  | Qty  | Harga Satuan  | Total Harga  |
++-----------------------------------------------------------------------------------------------------------+
+|1.    | Kertas       | 2    | 35000        | 70000       |
+|2.    | Pulpen       | 7    | 20000        | 140000       |
+|3.    | Amplop       | 10    | 17000        | 170000       |
++-----------------------------------------------------------------------------------------------------------+
+Total: Rp.380000
+
+Masukkan jumlah uang pembayaran: Rp.500000
++-----------------------------------------------------------------------------------------------------------+
+Kembalian: Rp.120000
++-----------------------------------------------------------------------------------------------------------+
+
+Terima kasih telah berbelanja di Toko Miss Diana!
+(base) zhakim@165-100-1-117 Tugas % javac NotaTokoApp.java
+(base) zhakim@165-100-1-117 Tugas % java NotaTokoApp      
+Selamat datang di Toko Miss Diana!
+Masukan Nomor Nota: b78yr98
+
+Silakan masukkan jumlah barang yang dibeli:
+Qty. Kertas (35000 per rim): 2
+Qty. Pulpen (20000 per box) : 4
+Qty. Amplop (17000 per box): 1
+
+-------------------------------
+RINCIAN NOTA PEMBELIAN: b78yr98
++-----------------------------------------------------------------------------------------------------------+
+| NO.  | Nama Barang  | Qty  | Harga Satuan  | Total Harga  |
++-----------------------------------------------------------------------------------------------------------+
+|1.    | Kertas       | 2    | 35000        | 70000       |
+|2.    | Pulpen       | 4    | 20000        | 80000       |
+|3.    | Amplop       | 1    | 17000        | 17000       |
++-----------------------------------------------------------------------------------------------------------+
+Total: Rp.167000
+
+Masukkan jumlah uang pembayaran: Rp.50000
++-----------------------------------------------------------------------------------------------------------+
+Kembalian: Rp.Uang pembayaran tidak cukup. Silakan jalankan java NotaTokoApp lagi.
++-----------------------------------------------------------------------------------------------------------+
+
+Terima kasih telah berbelanja di Toko Miss Diana!
+(base) zhakim@165-100-1-117 Tugas % 

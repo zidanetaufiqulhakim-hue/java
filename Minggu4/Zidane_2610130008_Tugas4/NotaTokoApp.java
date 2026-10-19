@@ -1,6 +1,5 @@
-import java.util.Scanner;
 /* Aplikasi Nota Toko Bu Diana*
-* Developer: Zidane Taufiql Hakim*
+* Developer: Zidane Taufiqul Hakim*
 * Terakhir diubah: 8 Oktober 2026, pukul 12:36*
 * Tujuan aplikasi: Membuat nota pembelian untuk toko buku milik Bu Diana agar process pembelian lebih efisien
 * KPI: 1) UI yang mudah dipahami user sehingga user tahu alur aplikasi dan tidak bingung saat menggunakannya
@@ -12,6 +11,8 @@ import java.util.Scanner;
        7) Operasi aplikasi benar dan tidak ada keliruan dalam perhitungan total harga dan kembalian
        8) Alur kode program mudah dipahami sehingga mudah untuk diubah jika ada perubahan sistem
 */
+
+import java.util.Scanner;
 
 public class NotaTokoApp {
     public static void main(String[] args) {
