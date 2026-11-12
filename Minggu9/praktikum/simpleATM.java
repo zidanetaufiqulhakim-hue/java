@@ -8,7 +8,7 @@ public class simpleATM {
         boolean isRunning = true; // false secara default
 
         //user's data
-        int saldo = 100000;
+        int saldo = 0;
         int jumlahSetor = 0;
 
         // Program ini
@@ -43,7 +43,7 @@ public class simpleATM {
                         System.out.print("Masukan nominal setoran: ");
                         jumlahSetor = localIn.nextInt();
 
-                        if(jumlahSetor >= 50000){
+                        if(jumlahSetor >= 50000 && jumlahSetor <= 1000000){
                             saldo += jumlahSetor;
                             System.out.println("SALDO ANDA SAAT INI: Rp." + saldo);
                             jumlahSetorValid = true;
