@@ -4,10 +4,10 @@ public class Soal3b {
                 for(int col = 1; col <= 5; col++){
                     if(row % 2 == 1){ // pola jika row ganjil
                         if(col % 2 == 1){
-                            System.out.print("* ");
+                            System.out.print("* "); //col ganjil diprint
                         }
                         else{
-                            System.out.print("  ");
+                            System.out.print("  "); //col genap kosong
                         }
                     }
                     else if(row % 2 == 0){ //pola jika row genap

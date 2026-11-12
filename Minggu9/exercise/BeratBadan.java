@@ -33,7 +33,7 @@ public class BeratBadan {
                 jumlahGemuk++;
             }
         }
-        System.out.println("----------------------------");
+        System.out.println("\n----------------------------");
         System.out.println("Jumlah kategori kurus: " + jumlahKurus);
         System.out.println("Jumlah kategori ideal: " + jumlahIdeal);
         System.out.println("Jumlah kategori gemuk: " + jumlahGemuk);

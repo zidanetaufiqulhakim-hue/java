@@ -5,7 +5,7 @@ public class Soal3a {
                     if(col % 2 == 1){
                         System.out.print("_ ");
                     }
-                    else{
+                    else{   
                         System.out.print("* ");
                     }
             }

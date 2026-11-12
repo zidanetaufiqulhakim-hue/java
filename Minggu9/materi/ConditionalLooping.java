@@ -19,12 +19,11 @@ public class ConditionalLooping {
         scan.close();
     }
 }
-
 */
 
 import java.util.Scanner;
 
-public class ConditionalLooping {
+public class ConditionalLooping { // Cara kedua
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int nilai;

@@ -6,7 +6,7 @@ public class NamaHari{
         System.out.print("Masukkan nilai (1-7): ");
         int angka = scanner.nextInt();
 
-        if (angka >= 1 && angka <= 7){
+        if (angka >= 1 && angka <= 7){ //nested if dipakai untuk eror handling
             if(angka == 1){
                 System.out.println("Senin");
             }

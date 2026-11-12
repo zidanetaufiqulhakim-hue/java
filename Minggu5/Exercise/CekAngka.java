@@ -15,7 +15,6 @@ public class CekAngka{
         else{
             System.out.println("Angka adalah bilang negatif");
         }
-
         
     }
 
