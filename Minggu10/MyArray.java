@@ -12,6 +12,7 @@ public class MyArray{
         }
 
         // CARA 2
+        System.out.println("\n CARA 2: Masukin Langsung Nilainya Juga Bisa");
         String[] namaBulan = {"Januari", "Febuary", "Maret", "April", 
         "Mei", "Juni", "July", "Agustus", "September", "Oktober", "Nopember", "Desember"};
         
